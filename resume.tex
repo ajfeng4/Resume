@@ -1,7 +1,7 @@
 %-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
+% Credit to Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume,https://github.com/jakegut/resume
 % License : MIT
 %------------------------
 
@@ -24,9 +24,9 @@
 %----------FONT OPTIONS----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
+%\usepackage[sfdefault]{roboto}
 % \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
+ \usepackage[default]{sourcesanspro}
 
 % serif
 % \usepackage{CormorantGaramond}
@@ -112,10 +112,10 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
-    \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    \href{https://github.com/...}{\underline{github.com/jake}}
+    \textbf{\Huge \scshape Alex Feng} \\ \vspace{1pt}
+    \small [REDACTED] $|$ \href{mailto:x@x.com}{\underline{ajfeng@buffalo.edu}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/ajfeng}} $|$
+    \href{https://github.com/...}{\underline{github.com/ajfeng4}}
 \end{center}
 
 
@@ -123,11 +123,11 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University at Buffalo}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
+      {University at Buffalo, State University of New York}{Buffalo, NY}
+      {Bachelor of Science in Computer Science, Minor in Cybersecurity}{Jan. 2022 -- Dec 2025}
     \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+      {University at Buffalo, State University of New York}{Buffalo, NY}
+      {Bachelor of Science in Business Administration}{Jan. 2022 -- Dec 2025}
   \resumeSubHeadingListEnd
 
 
@@ -136,12 +136,12 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+      {Web Development Assistant}{Sep 2024 -- Present}
+      {University at Buffalo School of Dental Medicine}{Buffalo, NY}
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        \resumeItem{Redesigned the School of Dental Medicine website using UX best practices, boosting SDM engagement}
+        \resumeItem{Resolved over 20 website inconsistencies and bugs, documenting fixes for future reference and improvement}
+        \resumeItem{Developed a database suite using Javascript, React, and Python improving data retrieval efficiency}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -155,47 +155,67 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
+      {Undergraduate Teaching and Research Assistant}{Aug. 2024 -- Present}
+      {University at Buffalo School of Engineering and Applied Sciences}{Buffalo, NY}
       \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+        \resumeItem{Research Assistant for Professor Wenyao Xu’s Drink Intake Project responsible for Mobile Development}
+        \resumeItem{Built iOS/Android app to improve drinking habits based on detected drinking sounds using React Native.}
+        \resumeItem{Assisted Professor Paul Dickson in teaching 3D Game Development using C++ to over 100 students.}
     \resumeItemListEnd
 
     \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
+      {Software Engineer Intern}{Aug. 2024 -- Dec 2024}
+      {Site Software Service Inc}{Jamison, PA}
       \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
-      \resumeItemListEnd
+        \resumeItem{Migrated legacy systems to Java and Spring Boot, increasing efficiency  and reducing maintenance costs}
+        \resumeItem{Collaborated with cross-functional teams using Git to ensure successful integration, and maintain clean code.}
+        \resumeItem{Participated in weekly stand-up meetings and full software development cycles, adhering to Agile methodologies.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer Intern}{May 2024 -- Aug 2024}
+      {Hungie}{New York City, NY}
+      \resumeItemListStart
+        \resumeItem{{Implemented scalable full-stack features for the MVP app using TypeScript, React Native, Python, and Firebase.}}
+        \resumeItem{Reduced technical debt by 50 percent using Tailwind CSS and optimized APIs, improving load time by 20 percent}
+        \resumeItem{Integrated alternative APIs and services, reducing costs by 15 percent and updating deprecated systems.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Director of Procurement}{Aug. 2022 -- Present}
+      {Undergraduate Student Association}{Buffalo, NY}
+      \resumeItemListStart
+        \resumeItem{Negotiated competitive rates with vendors, saving student clubs approximately 10,000 dollars annually.}
+        \resumeItem{Managed over 30 weekly purchase orders totaling 5,000 dollars maintaining transparency and accuracy.}
+        \resumeItemListEnd
 
   \resumeSubHeadingListEnd
+  
 
 
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+          {\textbf{Drink Intake Tracker} $|$ \emph{Typescript, Python, React Native, PostgreSQL, Supabase, Expo}}{Aug 2024 -- Present}
           \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-            \resumeItem{Visualized GitHub data to show collaboration}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
+            \resumeItem{Developed a mobile app to track a user's hydration level through vocal recognition}
+            \resumeItem{Implemented and designed mobile dashboard and statistics screen to display user hydration}
+            \resumeItem{Designed and built database schema, to be used to train the app to recognize when a user is drinking}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+          {\textbf{Find a Mechanic} $|$ \emph{JavaScript, PHP, React Native, SQL, Expo}}{Sep 2024 -- Dec 2024}
           \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+            \resumeItem{Built an iOS/Android mobile app connecting users in need of repairs with local garages and mechanics.}
+            \resumeItem{Redesigned and modernized the app's UI to streamline the customer to mechanic process using JavaScript}
+
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Dystopia} $|$ \emph{JavaScript, CSS, Tailwind, React}}{Jan 2024 -- May 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a responsive social media application that empowers users to customize their social media landscape.}
+            \resumeItem{Used JavaScript and CSS to design and build Dystopia's authentication flow and profile feature}
+
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -206,10 +226,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Languages}{: JavaScript, Typescript, HTML/CSS, Python, Java, PHP, C++, C, SQL, SCSS } \\
+     \textbf{Frameworks}{: React.js, React Native, Next.js, Vue.js, Angular,  Node.js, Express.js, Flask, Spring, MaterialUI, Tailwind} \\
+     \textbf{Developer Tools}{: Git, GitHub, GitLab, Trello, Jira, Docker, WebStorm, IntelliJ, VSCode, Andriod Studio} \\
+     \textbf{Databases}{: Firebase, MongoDB, MySQL, Supabase (Postgre), PHPMyAdmin}
     }}
  \end{itemize}
 
